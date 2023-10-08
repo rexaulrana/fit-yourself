@@ -4,41 +4,47 @@
     "name": "5K Charity Run",
     "image": "https://i.ibb.co/YTfywwG/charity.jpg",
     "price": "$25 per participant",
-    "description": "Join our annual 5K Charity Run and make a positive impact on your fitness and the community. This event is open to runners of all levels, from beginners to experienced athletes. Lace up your running shoes, enjoy a scenic route through the city, and help support a good cause. All proceeds go to local charities promoting health and wellness."
+    "description": "Join our annual 5K Charity Run and make a positive impact on your fitness and the community. This event is open to runners of all levels, from beginners to experienced athletes. Lace up your running shoes, enjoy a scenic route through the city, and help support a good cause. All proceeds go to local charities promoting health and wellness.",
+    "rating": "4.5"
   },
   {
     "id": 2,
     "name": "Yoga Retreat Weekend",
     "image": "https://i.ibb.co/j6DQr6d/yoga.jpg",
     "price": "$299 per person",
-    "description": "Escape the hustle and bustle of daily life and immerse yourself in a rejuvenating Yoga Retreat Weekend. Located in a tranquil natural setting, this retreat offers yoga and meditation sessions, healthy meals, and relaxation. Reconnect with your inner self, de-stress, and recharge your mind and body."
+    "description": "Escape the hustle and bustle of daily life and immerse yourself in a rejuvenating Yoga Retreat Weekend. Located in a tranquil natural setting, this retreat offers yoga and meditation sessions, healthy meals, and relaxation. Reconnect with your inner self, de-stress, and recharge your mind and body.",
+    "rating": "4.1"
   },
   {
     "id": 3,
     "name": "Fitness Expo 2023",
     "image": "https://i.ibb.co/fGZgj9G/caro2.jpg",
     "price": "$150 per person",
-    "description": "Don't miss the largest Fitness Expo of the year! Explore the latest fitness equipment, trends, and products. Attend informative seminars and workshops by fitness experts. Meet industry professionals and fellow fitness enthusiasts. Admission is free, so bring your friends and family for a day of health and fitness discovery."
+    "description": "Don't miss the largest Fitness Expo of the year! Explore the latest fitness equipment, trends, and products. Attend informative seminars and workshops by fitness experts. Meet industry professionals and fellow fitness enthusiasts. Admission is free, so bring your friends and family for a day of health and fitness discovery.",
+    "rating": "3.9"
   },
   {
     "id": 4,
     "name": "CrossFit Competition",
     "image": "https://i.ibb.co/xSV4Y91/crossfit.jpg",
     "price": "$50 entry fee",
-    "description": "Test your strength, endurance, and determination in our CrossFit Competition. Compete with athletes from all over the region in various CrossFit challenges. Whether you're a seasoned CrossFit athlete or new to the sport, this event is a thrilling way to challenge yourself and have fun."
+    "description": "Test your strength, endurance, and determination in our CrossFit Competition. Compete with athletes from all over the region in various CrossFit challenges. Whether you're a seasoned CrossFit athlete or new to the sport, this event is a thrilling way to challenge yourself and have fun.",
+    "rating": "4.9"
   },
   {
     "id": 5,
     "name": "Fitness and Nutrition Workshop",
     "image": "https://i.ibb.co/KFxNm7J/fitnessworkshop.jpg",
     "price": "$20 per workshop",
-    "description": "Enhance your fitness journey with our Fitness and Nutrition Workshop. Led by certified trainers and nutritionists, these workshops cover a range of topics, from workout routines to meal planning. Whether you're aiming for weight loss, muscle gain, or overall well-being, these workshops provide valuable knowledge and practical tips to help you achieve your goals."
+    "description": "Enhance your fitness journey with our Fitness and Nutrition Workshop. Led by certified trainers and nutritionists, these workshops cover a range of topics, from workout routines to meal planning. Whether you're aiming for weight loss, muscle gain, or overall well-being, these workshops provide valuable knowledge and practical tips to help you achieve your goals.",
+    "rating": "4.4"
   },
   {
     "id": 6,
     "name": "Trail Running Workshop",
     "image": "https://i.ibb.co/J7B27Gs/trailrunning.jpg",
     "price": "$30 per participant",
-    "description": "Explore the great outdoors and improve your trail running skills in our Trail Running Workshop. Led by experienced trail runners, this workshop covers techniques, safety, and navigation on challenging terrains. Whether you're new to trail running or a seasoned ethusiast, this event is an opportunity to connect with nature and fellow runners."
+    "description": "Explore the great outdoors and improve your trail running skills in our Trail Running Workshop. Led by experienced trail runners, this workshop covers techniques, safety, and navigation on challenging terrains. Whether you're new to trail running or a seasoned ethusiast, this event is an opportunity to connect with nature and fellow runners.",
+    "rating": "4.6"
   }
 ]

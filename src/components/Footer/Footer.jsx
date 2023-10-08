@@ -47,6 +47,9 @@ const Footer = () => {
             </svg>
           </a>
         </div>
+        <p className="block text-center font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased">
+          © All Rights Reserved- 2023.
+        </p>
       </nav>
     </footer>
   );
