@@ -1,7 +1,10 @@
+// import Navbar from "../../components/Navbar/Navbar";
+
 const ContactUs = () => {
   return (
     <div>
-      <h1>Contact us</h1>
+      {/* <Navbar></Navbar> */}
+      <h5>contact us</h5>
     </div>
   );
 };

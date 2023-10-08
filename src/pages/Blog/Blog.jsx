@@ -1,7 +1,10 @@
+// import Navbar from "../../components/Navbar/Navbar";
+
 const Blog = () => {
   return (
     <div>
-      <h5>Blog</h5>
+      {/* <Navbar></Navbar> */}
+      <h5>blog</h5>
     </div>
   );
 };
