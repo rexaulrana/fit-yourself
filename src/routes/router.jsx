@@ -9,11 +9,14 @@ import Cart from "../pages/Cart/Cart";
 import Profile from "../pages/Profile/Profile";
 import SignUp from "../pages/SignUp/SignUp";
 import Login from "../pages/Login/Login";
+import PrivateRoute from "./privateRoute/PrivateRoute";
+import ErrorPage from "../pages/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
+    errorElement: <ErrorPage> </ErrorPage>,
     children: [
       {
         path: "/",
@@ -21,7 +24,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/cart",
-        element: <Cart></Cart>,
+        element: (
+          <PrivateRoute>
+            <Cart></Cart>
+          </PrivateRoute>
+        ),
       },
       {
         path: "/contact",
@@ -29,11 +36,19 @@ const router = createBrowserRouter([
       },
       {
         path: "/profile",
-        element: <Profile></Profile>,
+        element: (
+          <PrivateRoute>
+            <Profile></Profile>
+          </PrivateRoute>
+        ),
       },
       {
         path: "/service/:id",
-        element: <ServiceDetails></ServiceDetails>,
+        element: (
+          <PrivateRoute>
+            <ServiceDetails></ServiceDetails>
+          </PrivateRoute>
+        ),
         loader: () => fetch("/services.json"),
       },
       {
