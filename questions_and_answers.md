@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i>greatign value is {}. For that the result is {}. </i>
 
 </p>
 </details>
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>Here a=1 that is a number type and b="2" that is a string type. when we sum it, its value is 12 because they are not same type ,if they are number type we get 3.</i>
 
 </p>
 </details>
@@ -69,9 +69,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer:A
 
-<i>Write your explanation here</i>
+<i> If we add something to an array we use push() method. otherwise no element will be added .</i>
 
 </p>
 </details>
@@ -94,9 +94,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer:B
 
-<i>Write your explanation here</i>
+<i> Here function declared without argument. Function takes parameter it will be undefined for not setting its argument.For that the result of this parameter is undefined.</i>
 
 </p>
 </details>
@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i> we apply forEach method so its called every element for one time and we can see above if the num from nums is true then count value will be increment 1.when there is no element for execute then the function will stop . </i>
 
 </p>
 </details>

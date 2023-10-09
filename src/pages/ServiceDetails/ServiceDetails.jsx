@@ -28,14 +28,14 @@ const ServiceDetails = () => {
       <div className="text-3xl text-center font-bold mt-4  bg-pink-200 py-10">
         Details About Service
       </div>
-      <div className="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+      <div className="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg mt-4">
         <div className=" m-0 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none">
           <img
-            className="relative  w-full"
+            className="relative h-[100vh]  mx-auto"
             src={item.image}
             alt="ui/ux review check"
           />
-          <div className="absolute left-3 top-4 py-7 px-5 bg-pink-400 rounded-xl">
+          <div className="absolute top-4 left-8 md:left-52 lg:left-80 md:top-5 py-7 px-5 bg-pink-400 rounded-xl">
             <h3 className=" flex items-center gap-2  text-3xl font-bold">
               <AiFillStar className="text-amber-400 text-4xl"></AiFillStar>
               {item.rating}
