@@ -56,7 +56,7 @@ const ServiceDetails = () => {
           onClick={handleAddToCart}
           className="flex justify-center items-center w-60  mx-auto btn mt-5 mb-5 btn-outline"
         >
-          Add To Cart
+          Add To Favorite
         </button>
       </Link>
     </div>

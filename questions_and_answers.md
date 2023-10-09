@@ -20,7 +20,7 @@ console.log(greetign);
 
 #### Answer: A
 
-<i>greatign value is {}. For that the result is {}. </i>
+<i>I think its a type mistake where we declare a variable called "greeting" without value then we declare a variable and its value is an empty object. For that the result is an empty object. </i>
 
 </p>
 </details>
