@@ -1,6 +1,19 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 const Faq = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div className=" w-full">
+    <div
+      className=" w-full"
+      data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="300"
+      data-aos-offset="0"
+    >
       <h3 className="text-3xl font-bold text-center mb-4">FAQ</h3>
       <div className="collapse bg-base-200">
         <input type="radio" name="my-accordion-1" />

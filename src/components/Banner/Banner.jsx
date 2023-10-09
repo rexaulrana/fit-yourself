@@ -1,8 +1,14 @@
 // import caro2 from "../../assets/images/caro2.jpg";
 
 // import Navbar from "../Navbar/Navbar";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Banner = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div>
       <div
@@ -13,7 +19,12 @@ const Banner = () => {
       >
         <div className="hero-overlay bg-opacity-60"></div>
         <div className=" text-center text-neutral-content">
-          <div className="max-w-md">
+          <div
+            className="max-w-md"
+            data-aos="zoom-in"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+          >
             <h1 className="mb-5  text-5xl font-bold">
               START YOUR
               <br />
@@ -21,9 +32,10 @@ const Banner = () => {
               <br />
               JOURNEY TODAY
             </h1>
-            <p className="mb-5 text-lg">
-              Enroll now with{" "}
-              <span className="text-2xl font-bold text-amber-500 ">
+            <p className="mb-5 text-5xl">
+              <br />
+              with{" "}
+              <span className="text-5xl font-bold text-amber-500 ">
                 our Best Services
               </span>{" "}
             </p>

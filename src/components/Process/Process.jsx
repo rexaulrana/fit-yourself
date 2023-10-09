@@ -8,9 +8,18 @@ import {
 const Process = () => {
   return (
     <div>
-      <h1 className="text-center text-2xl font-bold mt-10 mb-6">Our Process</h1>
+      <div>
+        <h1 className="text-center text-2xl font-bold mt-10 mb-6">
+          Our Process
+        </h1>
+      </div>
 
-      <div className="py-5 bg-pink-300 md:py-4  md:px-6 md:flex justify-evenly items-center gap-7">
+      <div
+        className="py-5 bg-pink-300 md:py-4  md:px-6 md:flex justify-evenly items-center gap-7"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000"
+      >
         <div className="mb-4">
           <span className="text-7xl flex justify-center  items-center">
             <GiStairsGoal className=""></GiStairsGoal>
