@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/images/logo.jpg";
 const Navbar = () => {
   const nav = (
@@ -7,13 +7,13 @@ const Navbar = () => {
         <NavLink to={"/"}>Home</NavLink>
       </li>
       <li>
-        <NavLink to={"/about"}>About Us</NavLink>
-      </li>
-      <li>
         <NavLink to={"/contact"}>Contact Us</NavLink>
       </li>
       <li>
         <NavLink to={"/cart"}>Favorites</NavLink>
+      </li>
+      <li>
+        <NavLink to={"/profile"}>Profile</NavLink>
       </li>
     </>
   );
@@ -50,7 +50,9 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{nav}</ul>
       </div>
       <div className="navbar-end">
-        <h4>btn</h4>
+        <Link to={"/signUp"}>
+          <button className="btn btn-outline btn-secondary">SignUp</button>
+        </Link>
       </div>
     </div>
   );

@@ -17,7 +17,7 @@ const Cart = () => {
   const handleDeleteAll = () => {
     localStorage.clear();
     setAddedItems([]);
-    setNotFound("All Items Deleted");
+    setNotFound("All Events Deleted");
   };
   return (
     <div>
@@ -29,7 +29,7 @@ const Cart = () => {
         <div>
           <div>
             <h1 className="text-center text-3xl font-semibold bg-pink-300 py-16">
-              Your Favorites Items
+              Your Favorites Events
             </h1>
             <div className="flex justify-center items-center">
               {notFound ? (
